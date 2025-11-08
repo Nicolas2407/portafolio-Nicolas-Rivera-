@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f2027;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: 50px 20px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #00c3ff;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+.proyectos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+}
+
+.tarjeta {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 195, 255, 0.7);
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.tarjeta h2 {
+  color: #00c3ff;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  font-size: 0.9em;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.boton {
+  text-decoration: none;
+  background: #00c3ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background: #009bd1;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  font-size: 0.9em;
+  color: #bbb;
+  margin-top: 30px;
+}
